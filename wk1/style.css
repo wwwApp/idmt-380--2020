@@ -1,0 +1,19 @@
+.list-group-item__detail {
+  margin-right: 1rem;
+}
+
+.section {
+  min-height: 100vh;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+}
+
+.section + .section {
+  border-top: 1px solid lightgray;
+}
+
+@media only screen and (min-width: 450px) {
+  .section {
+    padding-top: 5rem;
+  }
+}

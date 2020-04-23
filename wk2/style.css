@@ -105,7 +105,7 @@ ul {
 .teaser {
   width: 100vw;
   min-height: 100vh;
-  background-color: lightblue;
+  background-color: #d23406;
   display: flex;
   flex-direction: column;
   align-items: center;

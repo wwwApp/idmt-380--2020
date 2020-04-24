@@ -1,3 +1,7 @@
+/**
+general styles
+**/
+
 * {
   margin: 0;
   padding: 0;
@@ -220,6 +224,28 @@ ul {
 
 .nav__item.is-active {
   opacity: 1;
+}
+
+@media only screen and (max-width: 1000px) {
+  .teaser-title-wrapper {
+    margin-left: 0;
+  }
+
+  .teaser-content-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .teaser-content-wrapper > * {
+    width: 100%;
+  }
+
+  .teaser-content__info {
+    padding-left: 0;
+  }
+
+  .nav-wrapper {
+    display: none;
+  }
 }
 
 /**

@@ -229,10 +229,15 @@ ul {
 @media only screen and (max-width: 1000px) {
   .teaser-title-wrapper {
     margin-left: 0;
+    margin-bottom: 2rem;
   }
 
   .teaser-content-wrapper {
     flex-direction: column-reverse;
+  }
+
+  .teaser-content-wrapper {
+    padding-left: 0;
   }
 
   .teaser-content-wrapper > * {
@@ -241,6 +246,10 @@ ul {
 
   .teaser-content__info {
     padding-left: 0;
+  }
+
+  .teaser__description {
+    width: 100%;
   }
 
   .nav-wrapper {

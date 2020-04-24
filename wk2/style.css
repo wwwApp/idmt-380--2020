@@ -118,7 +118,7 @@ ul {
 }
 
 .teaser__title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 3.5rem;
 }
 
@@ -142,7 +142,7 @@ ul {
 }
 
 .teaser-content__info > * {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .teaser-content__image {
@@ -231,4 +231,31 @@ diff section colors
 
 .teaser:nth-of-type(2) {
   background-color: aliceblue;
+}
+
+
+@media only screen and (max-width: 600px) {
+  
+ 
+  .teaser-title-wrapper {
+    margin-left: 15%;
+    margin-bottom: 0.5rem;
+  }
+ 
+  .teaser-content {
+    height: 100%;
+    display: flex;
+    width: 100%;
+  }
+
+
+  .teaser-content__info {
+    width: 80%;
+    padding-left: 2rem;
+    padding-top: 1rem;
+  }
+
+  .teaser-content__image {
+    width: 100%;
+  }
 }

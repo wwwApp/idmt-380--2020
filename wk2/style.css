@@ -64,6 +64,7 @@ ul {
   display: flex;
   flex-direction: column;
   font-size: 3rem;
+  cursor: default;
 }
 
 .header__logo__text {
@@ -102,6 +103,11 @@ ul {
   color: white;
 }
 
+/* .toggle__button:hover {
+  background-color: black;
+  color: white;
+} */
+
 .teaser {
   width: 100vw;
   min-height: 100vh;
@@ -109,7 +115,7 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 8rem;
+  padding: 8rem 0 5rem;
 }
 
 .teaser-title-wrapper {
@@ -167,6 +173,12 @@ ul {
   color: white;
   background-color: black;
   text-align: center;
+  border: 3px solid black;
+}
+
+.teaser__cta:hover {
+  background-color: transparent;
+  color: black;
 }
 
 .teaser-cta-wrapper {
@@ -231,4 +243,8 @@ diff section colors
 
 .teaser:nth-of-type(2) {
   background-color: aliceblue;
+}
+
+.teaser:nth-of-type(3) {
+  background-color: plum;
 }
